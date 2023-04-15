@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap");
+body {
+  background-color: #000;
+  color: #fff;
+  margin-left: 5%;
+  font-family: "Libre Baskerville", serif;
+}
+.forms {
+  display: flex;
+  flex-flow: row;
+}
+.group {
+  display: flex;
+  flex-flow: column;
+  flex-basis: 29%;
+  margin-right: 30px;
+}
+.group input {
+  background-color: transparent;
+  margin-top: 20px;
+  padding: 5px;
+  border: 1px solid white;
+  color: white;
+}
+.adding {
+  position: absolute;
+  top: 150px;
+}
+.adding button {
+  padding: 8px;
+}
+
+.container {
+  margin-top: 160px;
+}
+.no_of_emp {
+  font-weight: lighter;
+  color: #626262;
+  display: block;
+}
+.error {
+  color: red;
+  display: none;
+}
+.success {
+  color: green;
+  display: none;
+}
+.box-container {
+  display: flex;
+  flex-flow: column;
+  gap: 10px;
+}
+.details {
+  margin-top: 10px;
+  border: 1px solid white;
+  font-weight: 300;
+  width: 450px;
+  min-width: 300px;
+  padding: 0.5rem;
+  overflow: hidden;
+  border-radius: 5px;
+  box-shadow: 10px -10px 10px 1px rgba(0, 0, 255, 0.2);
+}
+.details span {
+  margin-left: 10px;
+}
+.del {
+  padding: 0.5rem;
+  height: 30px;
+  width: fit-content;
+  border: 1px solid #f6efef;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px 0.5px rgba(252, 252, 255, 0.832);
+}
+.box-insider {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+/*
+let obj_key = arr[count - 1];
+  let all_key = Object.keys(obj_key);
+
+  let row_adding = document.createElement("div");
+  row_adding.setAttribute("class", `box-insider myID${count - 1}`);
+  let detail_div = document.createElement("div");
+  detail_div.setAttribute("class", "details");
+  var spans1 = document.createElement("span");
+  var spans2 = document.createElement("span");
+  var spans3 = document.createElement("span");
+  var spans4 = document.createElement("span");
+
+  for (let i = 0; i < all_key.length; i++) {
+    if (all_key[i] == "counter") {
+      console.log(all_key[i], arr[count - 1].counter);
+      spans1.innerText = arr[count - 1].counter;
+    } else if (all_key[i] == "name") {
+      console.log(all_key[i], arr[count - 1].name);
+      spans2.innerText = "Name : " + arr[count - 1].name;
+    } else if (all_key[i] == "profession") {
+      console.log(all_key[i], arr[count - 1].profession);
+      spans3.innerText = "Profession: " + arr[count - 1].profession;
+    } else {
+      console.log(all_key[i], arr[count - 1].Age);
+      spans4.innerText = "Age: " + arr[count - 1].Age;
+    }
+  }
+
+  detail_div.appendChild(spans1);
+  detail_div.appendChild(spans2);
+  detail_div.appendChild(spans3);
+  detail_div.appendChild(spans4);
+  row_adding.appendChild(detail_div);
+
+  let btn = document.createElement("button");
+  btn.setAttribute("class", "del");
+  btn.innerText = `Delete User`;
+  btn.setAttribute("id", `myDiv${count - 1}`);
+  btn.setAttribute("onmouseover", `deleting()`);
+
+  row_adding.appendChild(btn);
+  rows.appendChild(row_adding);
+  noOf.style.display = "none";
+*/

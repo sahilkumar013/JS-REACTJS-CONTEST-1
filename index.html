@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h3>New Employees</h3>
+    <form class="forms">
+      <div class="group">
+        <label for="name">Enter Name</label>
+        <input type="text" id="name" />
+      </div>
+      <div class="group">
+        <label for="prof">Enter Profession</label>
+        <input type="text" id="prof" />
+      </div>
+      <div class="group">
+        <label for="age">Enter Age</label>
+        <input type="number" id="age" />
+      </div>
+
+      <div class="adding">
+        <button type="submit" id="submission">Add User</button>
+      </div>
+    </form>
+    <section class="container">
+      <p class="error">
+        Error:Please Make Sure All the fields are filed before adding in an
+        employee !
+      </p>
+      <p class="success">Success :Employee Added !</p>
+      <h3>Added Employees</h3>
+      <div class="box">
+        <span class="no_of_emp"> You have 0 Employees </span>
+        <div class="box-container"></div>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
